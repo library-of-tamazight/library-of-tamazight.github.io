@@ -13,6 +13,7 @@
        <div id="navbar" class="collapse navbar-collapse">
          <ul class="nav navbar-nav">
            <li><a href="index.html">Home</a></li>
+           <li><a href="index.html#project">The project</a></li>
            <li class="dropdown">
            <a href="index.html#books" class="dropdown-toggle" data-toggle="dropdown">Books <b class="caret"></b></a>
            <ul class="dropdown-menu">
@@ -21,9 +22,11 @@
            </ul>
            </li>
            <li><a href="index.html#websites">Websites</a></li>
+           <li><a href="index.html#statistics">Statistics</a></li>
            <li><a href="index.html#resources">Resources</a></li>
-           <li><a href="index.html#team">The project</a></li>
            <li><a href="index.html#submit">Submit a resource</a></li>
+           <li><a href="index-kab.html"><img src="img/kab.png" width="20" alt="Taqbaylit"/></a></li>
+           <li class="active"><a href="index.html"><img src="img/uk.png" width="20" alt="English"/></a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>
