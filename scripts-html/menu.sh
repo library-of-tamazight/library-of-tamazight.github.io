@@ -43,8 +43,8 @@ echo '           <li><a href="index.html#websites">Websites</a></li>' >> $menu
 echo '           <li><a href="index.html#statistics">Statistics</a></li>' >> $menu
 echo '           <li><a href="index.html#resources">Resources</a></li>' >> $menu
 echo '           <li><a href="index.html#submit">Submit a resource</a></li>' >> $menu
-echo '           <li><a href="index-kab.html"><img src="img/kab.png" width="20" alt="Taqbaylit"/></a></li>' >> $menu
-echo '           <li class="active"><a href="index.html"><img src="img/uk.png" width="20" alt="English"/></a></li>' >> $menu
+echo '           <li><a href="index-kab.html"><img src="img/kab.png" width="25" alt="Taqbaylit"/></a></li>' >> $menu
+echo '           <li class="active"><a href="index.html"><img src="img/uk.png" width="25" alt="English"/></a></li>' >> $menu
 echo '         </ul>' >> $menu
 echo '       </div><!--/.nav-collapse -->' >> $menu
 echo '     </div>' >> $menu
