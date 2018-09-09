@@ -39,6 +39,8 @@ echo '           <li class="dropdown">' >> $menu
 		echo "         		<li><a href=\"$page.html\">$name</a></li>" >> $menu
   done
 
+  echo "test"
+
   echo '           </ul>' >> $menu
 echo '           </li>' >> $menu
 
