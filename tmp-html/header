@@ -1,0 +1,29 @@
+
+  <div class="page-header">
+   <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+             <img src="img/library.png" class="center-img" width="200" alt="Library of Tamazight"/>
+        </div>
+            
+            <div class="col-sm-8">
+              <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="left-h2">The project</h2>
+                    <p class="left-p">
+                        Library of Tamazight (Tamkaṛḍit n Tmaziɣt) is a website that gathers many scientific, artistic and cultural publications and websites on the Berber culture. Our goal is to help people to find a book to read or a website to visit in order to learn the culture, the languages and the history of Berber.
+                    </p>
+                  </div>                
+        </div>        
+          <div class="row">
+                <div class="col-sm-3">
+                    <a href="project.html" class="btn btn-lg btn-pyta">Learn more</a>
+                </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+   </div>
+  </div>
+

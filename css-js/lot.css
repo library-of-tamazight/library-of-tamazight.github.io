@@ -1,0 +1,65 @@
+/* custom button */
+.btn-pyta {
+  color: #fff;
+  background-color: #B23A48;
+  border-color: #ccc;
+}
+.btn-pyta:focus,
+.btn-pyta.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #B23A48;
+}
+.btn-pyta:hover {
+  color: #333;
+  background-color: #e0b0b5;
+  border-color: #B23A48;
+}
+.btn-pyta:active,
+.btn-pyta.active,
+.open > .dropdown-toggle.btn-pyta {
+  color: #333;
+  background-color: #e0b0b5;
+  border-color: #adadad;
+}
+.btn-pyta:active:hover,
+.btn-pyta.active:hover,
+.open > .dropdown-toggle.btn-pyta:hover,
+.btn-pyta:active:focus,
+.btn-pyta.active:focus,
+.open > .dropdown-toggle.btn-pyta:focus,
+.btn-pyta:active.focus,
+.btn-pyta.active.focus,
+.open > .dropdown-toggle.btn-pyta.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.btn-pyta:active,
+.btn-pyta.active,
+.open > .dropdown-toggle.btn-pyta {
+  background-image: none;
+}
+.btn-pyta.disabled:hover,
+.btn-pyta[disabled]:hover,
+fieldset[disabled] .btn-pyta:hover,
+.btn-pyta.disabled:focus,
+.btn-pyta[disabled]:focus,
+fieldset[disabled] .btn-pyta:focus,
+.btn-pyta.disabled.focus,
+.btn-pyta[disabled].focus,
+fieldset[disabled] .btn-pyta.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-pyta .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+.center-img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}

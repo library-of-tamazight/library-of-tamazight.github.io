@@ -37,7 +37,7 @@ echo '           <li class="dropdown">' >> $menu
 		echo "         		<li><a href=\"$page.html\">$name</a></li>" >> $menu
   done
 
-  echo '           </ul>' >> $menu
+echo '            </ul>' >> $menu
 echo '           </li>' >> $menu
 echo '           <li><a href="index.html#websites">Websites</a></li>' >> $menu
 echo '           <li><a href="index.html#statistics">Statistics</a></li>' >> $menu
@@ -49,5 +49,3 @@ echo '         </ul>' >> $menu
 echo '       </div><!--/.nav-collapse -->' >> $menu
 echo '     </div>' >> $menu
 echo '   </nav>' >> $menu
-
-echo '' >> $menu

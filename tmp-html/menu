@@ -19,7 +19,7 @@
            <ul class="dropdown-menu">
          		<li><a href="general-culture.html">General culture</a></li>
          		<li><a href="children.html">Children</a></li>
-           </ul>
+            </ul>
            </li>
            <li><a href="index.html#websites">Websites</a></li>
            <li><a href="index.html#statistics">Statistics</a></li>
@@ -31,4 +31,3 @@
        </div><!--/.nav-collapse -->
      </div>
    </nav>
-
