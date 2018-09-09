@@ -31,3 +31,5 @@ echo '</html>' >> $index_tmp
 #Copy the produced page into the main folder
 index='../index.html'
 cp $index_tmp $index
+
+echo "...index.html page has been generated"

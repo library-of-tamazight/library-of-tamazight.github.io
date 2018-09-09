@@ -32,14 +32,10 @@ echo '           <li class="dropdown">' >> $menu
 
   tail -n+2 $books | while read category 
   do 
-  		echo $category
-
-		page=$(echo $category | cut -d, -f2)
+  		page=$(echo $category | cut -d, -f2)
 		name=$(echo $category | cut -d, -f3)
 		echo "         		<li><a href=\"$page.html\">$name</a></li>" >> $menu
   done
-
-  echo "test"
 
   echo '           </ul>' >> $menu
 echo '           </li>' >> $menu
