@@ -23,8 +23,14 @@ echo '         <ul class="nav navbar-nav">' >> $menu
 echo '           <li><a href="index.html">Home</a></li>' >> $menu
 echo '           <li><a href="index.html#project">The project</a></li>' >> $menu
 
+############################
+#
+# Print book-categories
+#
+###########################
+echo '' >> $menu
 echo '           <li class="dropdown">' >> $menu
- echo '           <a href="index.html#books" class="dropdown-toggle" data-toggle="dropdown">Books <b class="caret"></b></a>' >> $menu
+ echo '           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>' >> $menu
   echo '           <ul class="dropdown-menu">' >> $menu
 
 
@@ -40,6 +46,33 @@ echo '           <li class="dropdown">' >> $menu
 
 echo '            </ul>' >> $menu
 echo '           </li>' >> $menu
+
+
+############################
+#
+# Print book-types
+#
+###########################
+echo '' >> $menu
+echo '           <li class="dropdown">' >> $menu
+ echo '           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Types <b class="caret"></b></a>' >> $menu
+  echo '           <ul class="dropdown-menu">' >> $menu
+
+
+  #Read the list of book types
+  books='../data/book-types'
+
+  tail -n+2 $books | while read type 
+  do 
+  		page=$(echo $type | cut -d, -f2)
+		name=$(echo $type | cut -d, -f1)
+		echo "         		<li><a href=\"$page.html\">$name</a></li>" >> $menu
+  done
+
+echo '            </ul>' >> $menu
+echo '           </li>' >> $menu
+
+
 
 echo '           <li><a href="index.html#websites">Websites</a></li>' >> $menu
 echo '           <li><a href="index.html#statistics">Statistics</a></li>' >> $menu

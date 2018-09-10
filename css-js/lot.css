@@ -63,3 +63,15 @@ fieldset[disabled] .btn-pyta.focus {
    margin-right: auto;
    width: 80%;
 }
+
+.left-p {
+  text-align: left;
+}
+
+.title-row{
+ text-align: center; 
+}
+
+.center-col{
+ text-align: center; 
+}

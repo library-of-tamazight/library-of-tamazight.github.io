@@ -14,11 +14,22 @@
          <ul class="nav navbar-nav">
            <li><a href="index.html">Home</a></li>
            <li><a href="index.html#project">The project</a></li>
+
            <li class="dropdown">
-           <a href="index.html#books" class="dropdown-toggle" data-toggle="dropdown">Books <b class="caret"></b></a>
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
            <ul class="dropdown-menu">
-         		<li><a href="general-culture.html">General culture</a></li>
+         		<li><a href="general-knowledge.html">General Knowledge</a></li>
          		<li><a href="children.html">Children</a></li>
+            </ul>
+           </li>
+
+           <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Types <b class="caret"></b></a>
+           <ul class="dropdown-menu">
+         		<li><a href="book.html">Book</a></li>
+         		<li><a href="article.html">Article</a></li>
+         		<li><a href="thesis.html">Thesis</a></li>
+         		<li><a href="other.html">Other</a></li>
             </ul>
            </li>
            <li><a href="index.html#websites">Websites</a></li>
