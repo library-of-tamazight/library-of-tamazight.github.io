@@ -2,5 +2,5 @@ type-name,type-page,image
 Book,book,book.png
 Article,article,paper.png
 Thesis,thesis,thesis.png
-Other,other,other.png
+Other,other-type,other.png
 EOF

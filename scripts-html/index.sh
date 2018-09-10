@@ -47,6 +47,7 @@ echo ''>> $index_tmp
 echo '<div class="container">' >> $index_tmp
 
 
+
 #######################
 #
 # Categories
@@ -57,6 +58,8 @@ echo '<div id="categories" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-2"><h1>Categories</h1></div>' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 echo '</div>' >> $index_tmp
+
+echo '<br/>' >> $index_tmp
 
 echo '<div class="row">' >> $index_tmp
 
@@ -85,11 +88,16 @@ echo '</div>' >> $index_tmp
 # Types
 #
 #######################
+echo '<br/>' >> $index_tmp
+echo '<br/>' >> $index_tmp
+
 echo '<div id="types" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 	echo '<div class="col-sm-2"><h1>Types</h1></div>' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 echo '</div>' >> $index_tmp
+
+echo '<br/>' >> $index_tmp
 
 echo '<div class="row">' >> $index_tmp
   echo '<div class="col-sm-2"></div>' >> $index_tmp
@@ -118,6 +126,9 @@ echo '</div>' >> $index_tmp
 # Websites
 #
 #######################
+echo '<br/>' >> $index_tmp
+echo '<br/>' >> $index_tmp
+
 echo '<div id="websites" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 	echo '<div class="col-sm-2"><h1>Websites</h1></div>' >> $index_tmp
@@ -130,6 +141,9 @@ echo '</div>' >> $index_tmp
 # Statistics
 #
 #######################
+echo '<br/>' >> $index_tmp
+echo '<br/>' >> $index_tmp
+
 echo '<div id="statistics" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 	echo '<div class="col-sm-2"><h1>Statistics</h1></div>' >> $index_tmp

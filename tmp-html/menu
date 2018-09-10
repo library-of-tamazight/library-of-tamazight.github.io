@@ -23,6 +23,7 @@
          		<li><a href="scientific-publication.html">Scientific publication</a></li>
          		<li><a href="poetry.html">Poetry</a></li>
          		<li><a href="history.html">History</a></li>
+         		<li><a href="other-cat.html">Other</a></li>
             </ul>
            </li>
 
@@ -32,7 +33,7 @@
          		<li><a href="book.html">Book</a></li>
          		<li><a href="article.html">Article</a></li>
          		<li><a href="thesis.html">Thesis</a></li>
-         		<li><a href="other.html">Other</a></li>
+         		<li><a href="other-type.html">Other</a></li>
             </ul>
            </li>
            <li><a href="index.html#websites">Websites</a></li>
