@@ -63,25 +63,47 @@ echo '<br/>' >> $index_tmp
 
 echo '<div class="row">' >> $index_tmp
 
+	echo '<div class="col-sm-2"></div>' >> $index_tmp
+
+
   #Read the list of book types
   books='../data/book-category'
 
+  i=0
+
   tail -n+2 $books | while read type 
   do 
+  		
+
   		page=$(echo $type | cut -d, -f2)
 		name=$(echo $type | cut -d, -f3)
 		img=$(echo $type | cut -d, -f4)
 
-		echo '<div class="col-sm-2 center-col">' >> $index_tmp
-		echo "<a href=\"$page.html\">" >> $index_tmp
-		echo "<img src=\"img/$img\" alt=\"$name\" class=\"center-img\" width=\"200\" />" >> $index_tmp
-		echo '</a>' >> $index_tmp
-		echo "<a class=\"btn btn-pyta\" href=\"$page.html\">$name</a>" >> $index_tmp
-		echo '</div>' >> $index_tmp
+		echo ' <div class="col-sm-2 center-col">' >> $index_tmp
+		echo "  <a href=\"$page.html\">" >> $index_tmp
+		echo "   <img src=\"img/$img\" alt=\"$name\" class=\"center-img\" width=\"200\" />" >> $index_tmp
+		echo '  </a>' >> $index_tmp
+		echo "  <a class=\"btn btn-pyta\" href=\"$page.html\">$name</a>" >> $index_tmp
+		echo ' </div>' >> $index_tmp
+
+		i=$(($i+1))
+		
+		if [ $(($i%4)) -eq "0" ]; then
+			echo '</div>' >> $index_tmp
+			echo '' >> $index_tmp
+			echo '<br />' >> $index_tmp
+			echo '' >> $index_tmp
+			echo '<div class="row">' >> $index_tmp
+			echo '<div class="col-sm-2"></div>' >> $index_tmp
+		fi		
+
   done
 
 echo '</div>' >> $index_tmp
 
+
+echo '' >> $index_tmp
+echo '' >> $index_tmp
 
 #######################
 #
@@ -135,6 +157,22 @@ echo '<div id="websites" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 echo '</div>' >> $index_tmp
 
+echo '<br/>' >> $index_tmp
+
+echo '<div class="row">' >> $index_tmp
+echo '<div class="col-sm-5"></div>' >> $index_tmp
+
+echo '<div class="col-sm-2 center-col">' >> $index_tmp
+
+echo "<a href=\"websites.html\">" >> $index_tmp
+echo "<img src=\"img/web.png\" alt=\"websites\" class=\"center-img\" width=\"200\" />" >> $index_tmp
+echo '</a>' >> $index_tmp
+echo "<a class=\"btn btn-lg btn-pyta\" href=\"websites.html\">websites</a>" >> $index_tmp		
+
+echo '</div>' >> $index_tmp
+
+echo '<div class="col-sm-5"></div>' >> $index_tmp
+echo '</div>' >> $index_tmp
 
 #######################
 #
