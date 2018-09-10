@@ -18,7 +18,8 @@ echo '              <div class="row">' >> $header
 echo '                <div class="col-sm-12">' >> $header
 echo '                    <h2 class="left-h2">The project</h2>' >> $header
 echo '                    <p class="left-p">' >> $header
-echo '                        Library of Tamazight (Tamkaṛḍit n Tmaziɣt) is a website that gathers scientific, artistic and cultural publications, books and websites that are related to the Berber culture. Our goal is to help people to find books to read or a websites to visit in order to learn the culture, the languages and the history of Berber.' >> $header
+echo '                        Library of Tamazight (Tamkaṛḍit n Tmaziɣt) is a website that gathers scientific, artistic and cultural publications, books and websites that are related to the Berber culture.' >> $header 
+echo '                        Our goal is to help people to find the books to read or the websites to visit in order to learn the culture, the languages and the history of Berber.' >> $header
 echo '                    </p>' >> $header
 echo '                  </div>                ' >> $header
 echo '        </div>        ' >> $header

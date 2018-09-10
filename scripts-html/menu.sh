@@ -22,6 +22,7 @@ echo '       <div id="navbar" class="collapse navbar-collapse">' >> $menu
 echo '         <ul class="nav navbar-nav">' >> $menu
 echo '           <li><a href="index.html">Home</a></li>' >> $menu
 echo '           <li><a href="index.html#project">The project</a></li>' >> $menu
+
 echo '           <li class="dropdown">' >> $menu
  echo '           <a href="index.html#books" class="dropdown-toggle" data-toggle="dropdown">Books <b class="caret"></b></a>' >> $menu
   echo '           <ul class="dropdown-menu">' >> $menu
@@ -39,10 +40,10 @@ echo '           <li class="dropdown">' >> $menu
 
 echo '            </ul>' >> $menu
 echo '           </li>' >> $menu
+
 echo '           <li><a href="index.html#websites">Websites</a></li>' >> $menu
 echo '           <li><a href="index.html#statistics">Statistics</a></li>' >> $menu
-echo '           <li><a href="index.html#resources">Resources</a></li>' >> $menu
-echo '           <li><a href="index.html#submit">Submit a resource</a></li>' >> $menu
+echo '           <li><a href="index.html#submit">Send resources</a></li>' >> $menu
 echo '           <li><a href="index-kab.html"><img src="img/kab.png" width="25" alt="Taqbaylit"/></a></li>' >> $menu
 echo '           <li class="active"><a href="index.html"><img src="img/uk.png" width="25" alt="English"/></a></li>' >> $menu
 echo '         </ul>' >> $menu
