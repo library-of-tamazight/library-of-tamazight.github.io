@@ -21,7 +21,7 @@ echo '        </div>' >> $header
 echo '' >> $header
 echo '            <div class="col-sm-9">' >> $header
 
-echo '                    <h2 class="left-h2">Help us !</h2>' >> $header
+echo '                    <h2 class="left-h2">Participate to the project !</h2>' >> $header
 echo '                    <p class="left-p">' >> $header
 echo '                        Library of Tamazight (Tamkaṛḍit n Tmaziɣt) is an open-source project. We invite all interested people to help us to enrich our content and grow up our database.' >> $header
 echo '                    </p>' >> $header 
