@@ -1,6 +1,6 @@
 #!/bin/bash
 
-index_tmp='../tmp-html/index.html'
+index_tmp='../tmp-html/index-tmp.html'
 head='../tmp-html/head'
 menu='../tmp-html/menu'
 header='../tmp-html/header'
