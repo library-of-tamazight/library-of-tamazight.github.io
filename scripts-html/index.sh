@@ -188,17 +188,13 @@ echo '<div id="statistics" class="row title-row">' >> $index_tmp
 	echo '<div class="col-sm-5"></div>' >> $index_tmp
 echo '</div>' >> $index_tmp
 
-echo '<div class="row">' >> $index_tmp
-echo '<div class="col-sm-5"></div>' >> $index_tmp
-
-echo '<div class="col-sm-2 center-col">' >> $index_tmp
-
-echo "<img src=\"img/construction.png\" alt=\"under construction\" class=\"center-img\" width=\"200\" />" >> $index_tmp
-
-echo '</div>' >> $index_tmp
-
-echo '<div class="col-sm-5"></div>' >> $index_tmp
-echo '</div>' >> $index_tmp
+echo ' <div class="row">' >> $index_tmp
+echo '  <div class="col-sm-5"></div>' >> $index_tmp
+echo '   <div class="col-sm-2 center-col">' >> $index_tmp
+echo "    <img src=\"img/construction.png\" alt=\"under construction\" class=\"center-img\" width=\"200\" />" >> $index_tmp
+echo '   </div>' >> $index_tmp
+echo '  <div class="col-sm-5"></div>' >> $index_tmp
+echo ' </div>' >> $index_tmp
 
 
 #######################
@@ -209,11 +205,11 @@ echo '</div>' >> $index_tmp
 echo '<br/>' >> $index_tmp
 echo '<br/>' >> $index_tmp
 
-echo '<div id="submit" class="row title-row">' >> $index_tmp
-	echo '<div class="col-sm-4"></div>' >> $index_tmp
-	echo '<div class="col-sm-4 center-col"><h1>Send resources</h1></div>' >> $index_tmp
-	echo '<div class="col-sm-4"></div>' >> $index_tmp
-echo '</div>' >> $index_tmp
+echo ' <div id="submit" class="row title-row">' >> $index_tmp
+echo '  <div class="col-sm-4"></div>' >> $index_tmp
+echo '  <div class="col-sm-4 center-col"><h1>Send resources</h1></div>' >> $index_tmp
+echo '  <div class="col-sm-4"></div>' >> $index_tmp
+echo ' </div>' >> $index_tmp
 
 
 ./send-resources.sh

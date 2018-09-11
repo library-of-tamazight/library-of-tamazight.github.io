@@ -25,7 +25,7 @@ echo '                  </div>                ' >> $header
 echo '        </div>        ' >> $header
 echo '          <div class="row">' >> $header
 echo '                <div class="col-sm-3">' >> $header
-echo '                    <a href="index.html#submit" class="btn btn-lg btn-pyta">Help us !</a>' >> $header
+echo '                    <a href="index.html#submit" class="btn btn-lg btn-pyta">Help to enrich the project</a>' >> $header
 echo '                </div>' >> $header
 echo '            </div>' >> $header
 echo '          </div>' >> $header
