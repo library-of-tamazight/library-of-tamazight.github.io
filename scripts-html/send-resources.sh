@@ -13,6 +13,8 @@ echo '      <div class="row">' >> $header
 echo '' >> $header
 
 echo '        <div class="col-sm-3">' >> $header
+echo '				<img src="img/library.png" class="center-img" width="200" alt="Library of Tamazight"/>' >> $header
+echo '				<br/>' >> $header
 echo '             <img src="img/submit.png" class="center-img" width="200" alt="Library of Tamazight"/>' >> $header
 echo '        </div>' >> $header
 

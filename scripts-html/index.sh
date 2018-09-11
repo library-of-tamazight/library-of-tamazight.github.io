@@ -236,4 +236,4 @@ echo '</html>' >> $index_tmp
 #################################################
 index='../index.html'
 cp $index_tmp $index
-echo "...index.html page has been generated"
+echo "..index.html page has been generated"

@@ -89,5 +89,5 @@ echo '</html>' >> $html_tmp
 #
 ##########################################
 cp $html_tmp $html
-echo "...$html page has been generated"
+echo "..$name.html page has been generated"
 

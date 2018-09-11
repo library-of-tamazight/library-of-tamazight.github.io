@@ -133,7 +133,7 @@ echo "# Copy the produced page into the main folder" >> $script
 echo "#" >> $script
 echo "##########################################" >> $script
 echo "cp \$html_tmp \$html" >> $script
-echo "echo \"...\$html page has been generated\"" >> $script
+echo "echo \"..\$name.html page has been generated\"" >> $script
 echo "" >> $script
 
 ###################################################################
