@@ -29,7 +29,7 @@ echo '                    </p>' >> $header
 echo '                    <h2 class="left-h2">How to help</h2>' >> $header
 
 echo '                    <p>' >> $header 
-echo '                        You have a thesis, article, website or a book related to Berber ? you can send it to us. We would be happy to add it to our database. Hereinafter, we give a list of interesting information about you resource:' >> $header
+echo '                        You have a thesis, article, website or a book related to Berber ? you can send it to us. We would be happy to add it to our database. Hereinafter, we give a list of interesting information about your resource:' >> $header
 echo '                    </p>' >> $header
 
 echo '					  <ul>' >> $header
