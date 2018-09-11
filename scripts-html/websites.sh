@@ -1,6 +1,7 @@
 #!/bin/bash
 html_tmp="../tmp-html/websites.html"
 html="../websites.html"
+name="Websites"
 
 head='../tmp-html/head'
 menu='../tmp-html/menu'
@@ -19,7 +20,7 @@ echo '<html>' >> $html_tmp
 # Genrate the html HEAD tag
 #
 ############################
-./head.sh
+./head.sh "$name"
 cat $head >> $html_tmp
 echo ''>> $html_tmp
 

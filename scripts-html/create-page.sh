@@ -8,11 +8,11 @@
 #   The HTML page contains the menu of the website
 #
 # PARAMETER
-#     $1: name
+#     $1: page 
+#	  $2: name (used for title)		  	
 #
 # OUTPUT 
-#	name.sh
-#	name.html
+#	$1.sh
 #
 
 
@@ -29,6 +29,7 @@ echo "#!/bin/bash" >> $script
 
 echo "html_tmp=\"../tmp-html/$1.html\"" >> $script
 echo "html=\"../$1.html\"" >> $script
+echo "name=\"$2\"" >> $script
 echo "" >> $script
 
 echo "head='../tmp-html/head'" >> $script
@@ -53,7 +54,7 @@ echo "#" >> $script
 echo "# Genrate the html HEAD tag" >> $script
 echo "#" >> $script
 echo "############################" >> $script
-echo "./head.sh" >> $script
+echo "./head.sh \"\$name\"" >> $script
 echo "cat \$head >> \$html_tmp" >> $script
 echo "echo ''>> \$html_tmp" >> $script
 echo "" >> $script
