@@ -3,8 +3,6 @@
 menu='../tmp-html/menu'
 :> $menu
 
-
-
 echo '' >> $menu
 
 echo '   <nav class="navbar navbar-inverse navbar-fixed-top">' >> $menu
