@@ -67,7 +67,7 @@ echo '<div class="row">' >> $index_tmp
 
 
   #Read the list of book types
-  books='../data/book-category'
+  books='../data/book-category.csv'
 
   i=0
 
@@ -125,7 +125,7 @@ echo '<div class="row">' >> $index_tmp
   echo '<div class="col-sm-2"></div>' >> $index_tmp
 
   #Read the list of book types
-  books='../data/book-types'
+  books='../data/book-types.csv'
 
   tail -n+2 $books | while read type 
   do 

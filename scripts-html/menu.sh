@@ -33,7 +33,7 @@ echo '           <li class="dropdown">' >> $menu
 
 
   #Read the list of book categories
-  books='../data/book-category'
+  books='../data/book-category.csv'
 
   tail -n+2 $books | while read category 
   do 
@@ -58,7 +58,7 @@ echo '           <li class="dropdown">' >> $menu
 
 
   #Read the list of book types
-  books='../data/book-types'
+  books='../data/book-types.csv'
 
   tail -n+2 $books | while read type 
   do 
