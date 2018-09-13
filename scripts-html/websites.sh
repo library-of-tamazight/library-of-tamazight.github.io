@@ -124,6 +124,14 @@ do
 		echo "" >> $html_tmp
 
 		i=$(($i+1))
+
+		if [ $(($i%4)) -eq "0" ]; then
+			echo '</div>' >> $html_tmp
+			echo '' >> $html_tmp
+			echo '<br />' >> $html_tmp
+			echo '' >> $html_tmp
+			echo '<div class="row">' >> $html_tmp
+		fi
 done
 
 echo '</div>' >> $html_tmp
