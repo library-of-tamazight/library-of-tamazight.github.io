@@ -54,6 +54,18 @@ echo '<div class=container>' >> $html_tmp
 cat $header >>  $html_tmp
 echo ''>> $html_tmp
 
+
+
+########################################
+#
+# Generate selection buttons
+#
+########################################
+select="../tmp-html/selection"
+./selection-row.sh
+cat $select >>  $html_tmp
+echo ''>> $html_tmp
+
 # echo ' <div id="page-title" class="row title-row">' >> $html_tmp
 # echo '  <div class="col-sm-4"></div>' >> $html_tmp
 # echo '  <div class="col-sm-4 center-col"><h1>websites</h1></div>' >> $html_tmp
