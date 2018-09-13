@@ -75,3 +75,25 @@ fieldset[disabled] .btn-pyta.focus {
 .center-col{
  text-align: center; 
 }
+
+.panel-pyta{
+  border-color: #B23A48;  
+}
+
+.panel-pyta > .panel-heading {
+  color: #fff;
+  background-color: #B23A48;
+  border-color: #ddd;
+}
+
+}
+.panel-pyta > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.panel-pyta > .panel-heading .badge {
+  color: #B23A48;
+  background-color: #fff;
+}
+.panel-pyta > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
