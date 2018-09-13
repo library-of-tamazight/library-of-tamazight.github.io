@@ -5,7 +5,7 @@ html_tmp="../tmp-html/selection"
 
 echo '<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">' >> $html_tmp
 
-echo '  <button type="button" id="A" class="btn btn-secondary">A</button>' >> $html_tmp
+echo '  <button type="button" id="A" onclick="test(this);" class="btn btn-secondary">A</button>' >> $html_tmp
 echo '  <button type="button" id="B" class="btn btn-secondary">B</button>' >> $html_tmp
 echo '  <button type="button" id="C" class="btn btn-secondary">C</button>' >> $html_tmp
 echo '  <button type="button" id="D" class="btn btn-secondary">D</button>' >> $html_tmp
