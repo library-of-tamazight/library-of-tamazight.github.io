@@ -1,11 +1,6 @@
 function select(button) {
 
-	var str = "Hello world, welcome to the universe.";
-    var n = str.startsWith("Hello");
-    document.getElementById("selected").innerHTML = n;
-	
 	defaultColorAllButtons();	
-
 	button.style="color: red;";
 
 	var resources=document.getElementById("resources").getElementsByClassName("resource");
@@ -29,6 +24,7 @@ function select(button) {
 
 function selectAll(button){
 
+	defaultColorAllButtons();	
 	button.style="color: red;";
 
 	var resources=document.getElementById("resources").getElementsByClassName("resource");
