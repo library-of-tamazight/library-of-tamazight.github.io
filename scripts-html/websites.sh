@@ -93,7 +93,7 @@ echo "</div>" >> $html_tmp
 
 echo "<br/>" >> $html_tmp
 
-echo "<div id=\"websites\">" >> $html_tmp
+echo "<div id=\"resources\">" >> $html_tmp
 
 echo "<div class=\"row\">" >> $html_tmp
 
@@ -107,11 +107,11 @@ do
 		logo=$(echo $website | cut -d\; -f3)
 		abstract=$(echo $website | cut -d\; -f4)
 
-		echo "<div id=\"$name\" class=\"col-sm-3\">" >> $html_tmp
+		echo "<div id=\"$name\" class=\"col-sm-3 resource\">" >> $html_tmp
 
 		echo "<a data-toggle=\"collapse\" href=\"#collapse$i\"><img src=\"$logos$logo\" width=\"200\" /></a>" >> $html_tmp
 
-		echo " <h4><a data-toggle=\"collapse\" href=\"#collapse$i\">$name</a></h4>" >> $html_tmp
+		echo " <h4><a data-toggle=\"collapse\" href=\"#collapse$i\"><span class=\"name\">$name<span></a></h4>" >> $html_tmp
 
 		echo " <div id=\"collapse$i\" class=\"collapse\">" >> $html_tmp
 

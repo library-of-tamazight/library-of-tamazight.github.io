@@ -54,6 +54,22 @@ cat $header >>  $html_tmp
 echo ''>> $html_tmp
 
 
+########################################
+#
+# Generate selection buttons
+#
+########################################
+select="../tmp-html/selection"
+./selection-row.sh
+cat $select >>  $html_tmp
+echo ''>> $html_tmp
+
+
+########################################
+#
+# Generate resources
+#
+########################################
 filter="../tmp-html/filter"
 ./filter-data.sh 3 Article
 cat $filter >>  $html_tmp
