@@ -1,0 +1,7 @@
+<div class="row">
+<div class="col-sm-3"><span style="font-size:20px;">Total resources </span> 
+<span class="badge">1</span></div>
+<div class="col-sm-3"><span style="font-size:20px;">Selected resources </span> 
+<span id="selected" class="badge">1</span></div>
+</div>
+<br/>

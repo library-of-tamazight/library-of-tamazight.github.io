@@ -7,12 +7,11 @@ head='../tmp-html/head'
 menu='../tmp-html/menu'
 header='../tmp-html/header'
 
-data='../data/resources-csv/websites.csv'
+data='../data/websites.csv'
 logos='data/website-logos/'
 
 :>$html_tmp
 :>$html
-
 
 echo '<!DOCTYPE html>' >> $html_tmp
 echo '<html>' >> $html_tmp
