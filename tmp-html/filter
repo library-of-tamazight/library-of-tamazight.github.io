@@ -13,17 +13,16 @@
             <div class="panel-group">
                 <div class="panel panel-pyta">
                     <div class="panel-heading">
-                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapse"><span class="name">Adjectif</span></a></h4>
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapse"><span class="name">Introduction à l'étude de la littérature d'expression kabyle</span></a></h4>
                     </div>
                     <div id="collapse" class="panel-collapse collapse">
                         <div class="panel-body">
                               <p>
-<span class="author">Salem Chaker</span>. <span class="type">Article</span>. <span class="year">1985</span>.
+<span class="author">Kamel Bouamara</span>. <span class="type">Book</span>. <span class="year">2018</span>.
                               </p>
                               <p>
-En tant que catégorie sémantique et morphologique, l'adjectif existe dans la totalité du domaine berbère.
+Ce livre, préfacé par Daniella Merollla, Professeure de littérature et art berbères (Inalco, Paris), rassemble 6 études déjà publiées, entre 2007 et 2018.
                               </p>
-   <a href="data/resources/09-18/01.pdf" class="btn btn-pyta">PDF</a>
                        </div>
                   </div>
                </div>
