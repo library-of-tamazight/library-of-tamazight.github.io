@@ -7,3 +7,4 @@
 ./book.sh
 ./thesis.sh
 ./other-type.sh
+./scientific-publication.sh

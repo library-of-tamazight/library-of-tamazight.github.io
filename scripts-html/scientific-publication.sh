@@ -1,7 +1,7 @@
 #!/bin/bash
-html_tmp="../tmp-html/general-knowledge.html"
-html="../general-knowledge.html"
-name="General Knowledge"
+html_tmp="../tmp-html/scientific-publication.html"
+html="../scientific-publication.html"
+name="Scientific Publication"
 
 head='../tmp-html/head'
 menu='../tmp-html/menu'
@@ -38,7 +38,7 @@ echo ''>> $html_tmp
 
 ##########################################
 #
-# Generate the content of general-knowledge.html page
+# Generate the content of scientific-publication.html page
 #
 ##########################################
 echo '<div class=container>' >> $html_tmp
@@ -70,7 +70,7 @@ echo ''>> $html_tmp
 #
 ########################################
 filter="../tmp-html/filter"
-./filter-data.sh 4 GK
+./filter-data.sh 4 PUB
 cat $filter >>  $html_tmp
 
 
