@@ -9,7 +9,7 @@ head='../tmp-html/head'
 echo '<head>' >> $head
 echo '<meta name="description" content="">' >> $head
 echo '<meta name="author" content="Adel Ferdjoukh">' >> $head
-echo '<link rel="icon" href="img/kab.png">' >> $head
+echo '<link rel="icon" href="img/library.png">' >> $head
 echo '<meta charset="utf-8">' >> $head
 echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">' >> $head
 echo '<meta name="viewport" content="width=device-width, initial-scale=1">' >> $head
