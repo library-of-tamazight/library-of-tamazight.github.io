@@ -64,7 +64,6 @@ select="../tmp-html/selection"
 cat $select >>  $html_tmp
 echo ''>> $html_tmp
 
-
 ########################################
 #
 # Generate resources

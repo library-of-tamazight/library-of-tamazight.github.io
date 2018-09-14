@@ -54,20 +54,24 @@ cat $header >>  $html_tmp
 echo ''>> $html_tmp
 
 
-echo ' <div id="page-title" class="row title-row">' >> $html_tmp
-echo '  <div class="col-sm-4"></div>' >> $html_tmp
-echo '  <div class="col-sm-4 center-col"><h1>other-type</h1></div>' >> $html_tmp
-echo '  <div class="col-sm-4"></div>' >> $html_tmp
-echo '</div>' >> $html_tmp
+########################################
+#
+# Generate selection buttons
+#
+########################################
+select="../tmp-html/selection"
+./selection-row.sh
+cat $select >>  $html_tmp
+echo ''>> $html_tmp
 
-
-echo ' <div class="row">' >> $html_tmp
-echo '  <div class="col-sm-5"></div>' >> $html_tmp
-echo '   <div class="col-sm-2 center-col">' >> $html_tmp
-echo "    <img src=\"img/construction.png\" alt=\"under construction\" class=\"center-img\" width=\"200\" />" >> $html_tmp
-echo '   </div>' >> $html_tmp
-echo '  <div class=col-sm-5></div>' >> $html_tmp
-echo ' </div>' >> $html_tmp
+########################################
+#
+# Generate resources
+#
+########################################
+filter="../tmp-html/filter"
+./filter-data.sh 3 Other
+cat $filter >>  $html_tmp
 
 
 ###########################################
