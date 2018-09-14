@@ -55,6 +55,8 @@ echo "" >> $html_tmp
 echo "<div id=\"resources\">" >> $html_tmp
 echo " <div class=\"row\">" >> $html_tmp
 
+j=0
+
 for file in $(ls $data); do
 
 	file="$data$file"
@@ -123,6 +125,16 @@ for file in $(ls $data); do
 			
 			echo "  </div>" >> $html_tmp
 			echo "" >> $html_tmp
+
+			j=$(($j+1))
+
+			if [ $(($j%4)) -eq "0" ]; then
+				echo '</div>' >> $html_tmp
+				echo '' >> $html_tmp
+				echo '<br />' >> $html_tmp
+				echo '' >> $html_tmp
+				echo '<div class="row">' >> $html_tmp
+			fi
 
 		fi
 	done
